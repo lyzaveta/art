@@ -3,7 +3,7 @@
     <head>
         <title>Lisa art</title>
 		<meta charset=utf-8>
-        <meta name="description" content="Moving Boxes Menu with jQuery" />
+        <meta name="description" content="Art" />
         <meta name="keywords" content="jquery, boxes, menu, rotating, content, background image, full page"/>
 		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -34,7 +34,6 @@
 		<div id="mb_content_wrapper" class="mb_content_wrapper">
 			<span class="mb_close"></span>
              <div class="mb_content">
-				<h2>Portraits</h2>
 				<div class="mb_content_inner">
 					<p></p>
 					<ul id="mb_imagelist" class="mb_imagelist">
@@ -54,7 +53,6 @@
 				</div>
 			</div>
 			<div class="mb_content">
-				<h2>Line art</h2>
 				<div class="mb_content_inner">
 					<p></p>
 					<ul id="mb_imagelist" class="mb_imagelist">
@@ -90,7 +88,6 @@
 				</div>
 			</div>
             <div class="mb_content">
-				<h2>Mix</h2>
 				<div class="mb_content_inner">
 					<p></p>
 					<ul id="mb_imagelist" class="mb_imagelist">
@@ -312,8 +309,8 @@
 								param		= {
 									width	: '100px',
 									height	: '100px',
-									top		: 154 + 100 * Math.floor(i/4),
-									left	: 100 + 100 * (i%4),
+									top		: Math.floor(i/4),
+									left	: (i%4),
 									opacity	: 1
 								};
 										
