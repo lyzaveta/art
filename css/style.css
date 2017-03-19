@@ -74,6 +74,7 @@ img.mb_bgimage{
 	background:transparent url(../images/bg_menu.png) repeat top left;
 	width:400px;
 	height:300px;
+	opacity:0.4;
 	position:absolute;
 	top:0px;
 	right:0px;
@@ -170,7 +171,7 @@ button:hover{
 	width:100%;
 	font-size:13px;
 	background:#000;
-	opacity:0.9;
+	opacity:0.4;
 	height:20px;
 	padding-bottom:5px;
 	text-transform:uppercase;
